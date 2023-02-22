@@ -202,10 +202,6 @@ textarea {
 
 /* --------------- l a p t o p ----------------------- */
 
-/* tab and laptop */
-@media only screen and (max-width: 768px) {
-}
-
 .nav-bar {
   display: flex;
   margin-left: 4%;
@@ -318,6 +314,7 @@ textarea {
   padding: 6px, 12px;
   width: auto;
   height: 25px;
+  margin-bottom: 50px;
 }
 
 .headline ul {
@@ -355,10 +352,6 @@ textarea {
   color: white;
   font-size: 1.3rem;
   padding: 5 10 5 10;
-}
-
-.work-sample ul {
-  margin-bottom: 50px;
 }
 
 .headline i {
