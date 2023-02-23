@@ -27,7 +27,6 @@ textarea {
   color: #36b37e;
 }
 
-
 .nav-bar {
   display: flex;
   margin-left: 4%;
@@ -295,6 +294,10 @@ textarea:focus {
     font-size: 20px;
   }
 
+  header li {
+    margin-left: 25%;
+  }
+
   .nav-bar li {
     display: none;
   }
@@ -399,10 +402,6 @@ textarea:focus {
 
   header ul {
     width: 100%;
-  }
-
-  header li {
-    margin-left: 25%;
   }
 
   .down-arrow i {
@@ -530,6 +529,7 @@ textarea:focus {
     background-repeat: no-repeat;
     background-position-x: -5rem;
     background-position-y: 5rem;
+    padding-top: 7.5rem;
   }
 
   .headline .intro {
@@ -563,7 +563,6 @@ textarea:focus {
     text-align: center;
     width: 75%;
     margin-left: 10%;
-    margin-top: -7px;
     font-size: 1rem;
     word-spacing: 0.5rem;
     line-height: 1.4rem;
@@ -577,10 +576,6 @@ textarea:focus {
     justify-content: center;
     padding: 30px;
     gap: 25px;
-  }
-
-  .headline {
-    padding-top: 7.5rem;
   }
 
   .headline ul {
@@ -633,16 +628,14 @@ textarea:focus {
     display: none;
   }
 
-  .mobile-form {
-    display:flex;
-  }
-
   .in-touch h2 {
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 30px;
     line-height: 52px;
     text-align: center;
     color: #172b4d;
+    width: 80%;
+    padding-left: 10%;
   }
 
   .message-submit-btn {
@@ -661,6 +654,7 @@ textarea:focus {
     line-height: 24px;
     align-items: center;
     justify-content: center;
+    margin-left: 43%;
   }
 
   .about-me {
@@ -676,20 +670,6 @@ textarea:focus {
   .touch-text,
   .mobile-form {
     flex: 100%;
-  }
-
-  .in-touch h2 {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 52px;
-    text-align: center;
-    color: #172b4d;
-    width: 80%;
-    padding-left: 10%;
-  }
-
-  .message-submit-btn {
-    margin-left: 43%;
   }
 
   .recent-work {
@@ -708,6 +688,7 @@ textarea:focus {
     margin-left: 7rem;
   }
 }
+
 /* --------------- l a p t o p ----------------------- */
 
 @media only screen and (min-width: 1000px) {
@@ -983,6 +964,4 @@ textarea:focus {
     padding-left: 15px;
     border: 1px solid #d0d9d4;
   }
-
 }
-
