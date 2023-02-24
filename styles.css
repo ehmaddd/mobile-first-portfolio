@@ -758,8 +758,7 @@ textarea:focus {
     transition: height 2s;
   }
 
-  .intro:hover,
-  .profession:hover {
+  .intro:hover {
     font-size: 45px;
   }
 
