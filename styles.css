@@ -758,8 +758,14 @@ textarea:focus {
     transition: height 2s;
   }
 
-  .intro:hover,
-  .profession:hover {
+  .headline i {
+    transition-timing-function: ease-in-out;
+    width: 1.7%;
+    margin-left: 49%;
+    margin-bottom: 550px;
+  }
+
+  .intro:hover {
     font-size: 45px;
   }
 
@@ -788,12 +794,6 @@ textarea:focus {
 
   .headline ul {
     margin-top: -7px;
-  }
-
-  .headline i {
-    width: 1.7%;
-    margin-left: 49%;
-    margin-bottom: 550px;
   }
 
   .recent-heading p {
