@@ -760,6 +760,9 @@ textarea:focus {
 
   .headline i {
     transition-timing-function: ease-in-out;
+    width: 1.7%;
+    margin-left: 49%;
+    margin-bottom: 550px;
   }
 
   .intro:hover {
@@ -791,12 +794,6 @@ textarea:focus {
 
   .headline ul {
     margin-top: -7px;
-  }
-
-  .headline i {
-    width: 1.7%;
-    margin-left: 49%;
-    margin-bottom: 550px;
   }
 
   .recent-heading p {
