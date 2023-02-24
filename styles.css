@@ -755,6 +755,12 @@ textarea:focus {
     color: #36b37e;
     margin-top: 0;
     margin-bottom: 0;
+    transition: height 2s;
+  }
+
+  .intro:hover,
+  .profession:hover {
+    font-size: 45px;
   }
 
   .headline p {
@@ -807,6 +813,14 @@ textarea:focus {
   .work-sample {
     margin-left: 1%;
     margin-bottom: 2%;
+  }
+
+  .work-sample img {
+    transform: 2s;
+  }
+
+  .work-sample img:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .about-me {
