@@ -758,9 +758,16 @@ textarea:focus {
     transition: height 2s;
   }
 
-  .intro:hover,
-  .profession:hover {
+  .headline i {
+    transition-timing-function: ease-in-out;
+  }
+
+  .intro:hover {
     font-size: 45px;
+  }
+
+  .headline i:hover {
+    
   }
 
   .headline p {
