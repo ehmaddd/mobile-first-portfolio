@@ -64,7 +64,7 @@ The core concepts of HTML, CSS and github were implemented.
 
 You can open "Index.html" from this repository because it is the very first file of this project and it will lead you to the rest of data in the project.
 
-To get a local copy up and running, follow these steps.
+To get a local copy, follow these steps.
 
 ### Prerequisites
 
