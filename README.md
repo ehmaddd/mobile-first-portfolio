@@ -56,7 +56,7 @@ The core concepts of HTML, CSS and github were implemented.
 
 ## 🚀 Live Demo
 
-- [Live Demo Link](https://github.com/ehmaddd/mobile-first-portfolio/)
+- [Live Demo Link](https://github.com/ehmaddd/mobile-first-portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
