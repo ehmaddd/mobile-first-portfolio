@@ -687,6 +687,10 @@ textarea:focus {
     max-width: 70%;
     margin-left: 7rem;
   }
+
+  .labels {
+    display: none;
+  }
 }
 
 /* --------------- l a p t o p ----------------------- */
@@ -938,6 +942,10 @@ textarea:focus {
   .footer {
     display: none;
   }
+
+  .labels {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1150px) {
@@ -977,5 +985,9 @@ textarea:focus {
     border-radius: 4px;
     padding-left: 15px;
     border: 1px solid #d0d9d4;
+  }
+
+  .labels {
+    display: none;
   }
 }
