@@ -1,4 +1,10 @@
 /* BACKGROUND */
+body {
+  height: auto;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  overflow-x: auto;
+}
+
 .main-container {
   margin: 0;
 }
