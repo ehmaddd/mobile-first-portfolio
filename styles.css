@@ -289,10 +289,84 @@ textarea:focus {
 /* --------------- m o b i l e ----------------------- */
 
 @media only screen and (max-width: 767px) {
+  header {
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding-top: 5%;
+  }
+
   .logo h3 {
     font-weight: 600px;
     font-size: 20px;
   }
+
+  /* dropdown menu start */
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    background-color: #67798e;
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    background-color: #67798e;
+  }
+
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  #panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  #panel a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3a4a42;
+    left: 5%;
+    flex: 100%;
+  }
+
+  .drop-link {
+    display: inline-block;
+  }
+
+  /* dropdown menu end */
 
   header li {
     margin-left: 25%;
@@ -390,14 +464,6 @@ textarea:focus {
   .profession {
     font-size: 40px;
     font-weight: 700px;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    width: 100%;
-    padding-top: 5%;
   }
 
   header ul {
@@ -509,18 +575,20 @@ textarea:focus {
     font-weight: 500;
   }
 
-  .nav-bar ul {
-    margin: auto 50% auto 50%;
-  }
-
   .nav-bar li {
     width: 7rem;
   }
 
   .nav-bar {
     margin-top: 10px;
+    margin-left: 30%;
     position: absolute;
     top: 15px;
+    width: 200px;
+  }
+
+  #panel {
+    display: none;
   }
 
   .headline {
@@ -708,18 +776,23 @@ textarea:focus {
   }
 
   .nav-bar ul {
-    margin: auto auto auto 65%;
-  }
-
-  .nav-bar li {
-    margin-left: 40px;
+    height: 40px;
+    display: flex;
+    gap: 20%;
+    margin: auto 35%;
+    flex-wrap: nowrap;
   }
 
   .nav-bar {
-    margin-top: 10px;
+    padding-top: 20px;
     position: absolute;
-    left: 12rem;
-    top: 15px;
+    left: 10%;
+    top: 0;
+    width: 70%;
+  }
+
+  #panel {
+    display: none;
   }
 
   .headline {
