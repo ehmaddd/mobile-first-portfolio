@@ -340,7 +340,7 @@ textarea:focus {
   }
 
   #panel {
-    padding: 0 18px;
+    padding: 0 18px 70% 0;
     display: none;
     background-color: white;
     overflow: hidden;
