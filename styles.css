@@ -312,7 +312,9 @@ textarea:focus {
   }
 
   .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
+    width: 20px;
+    height: 2px;
+    transform: translate(3px, 10px) rotate(-45deg);
     background-color: #67798e;
   }
 
@@ -321,7 +323,9 @@ textarea:focus {
   }
 
   .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
+    width: 20px;
+    height: 2px;
+    transform: translate(3px, -10px) rotate(45deg);
     background-color: #67798e;
   }
 
@@ -331,7 +335,7 @@ textarea:focus {
     width: 30%;
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 10px;
     transition: 0.4s;
   }
 
@@ -346,7 +350,7 @@ textarea:focus {
     display: flex;
     text-decoration: none;
     padding: 10px 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #3a4a42;
     left: 5%;
