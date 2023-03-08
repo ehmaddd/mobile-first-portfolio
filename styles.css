@@ -72,8 +72,14 @@ textarea {
 }
 
 .see-project-btn:hover {
-  box-shadow: 5px 10px #36b37e;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
   cursor: pointer;
+}
+
+.see-project-btn:active {
+  background-color: #008552;
 }
 
 .see-resume-btn {
@@ -95,7 +101,14 @@ textarea {
 }
 
 .see-resume-btn:hover {
-  box-shadow: 5px 10px #36b37e;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.see-resume-btn:active {
+  background-color: #008552;
 }
 
 .footer {
@@ -437,8 +450,14 @@ textarea:focus {
   }
 
   .see-modal:hover {
-    box-shadow: 5px 10px #36b37e;
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
     cursor: pointer;
+  }
+
+  .see-modal:active {
+    background-color: #008552;
   }
 
   .rot {
@@ -772,8 +791,14 @@ textarea:focus {
   }
 
   .see-modal:hover {
-    box-shadow: 5px 10px #36b37e;
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
     cursor: pointer;
+  }
+
+  .see-modal:active {
+    background-color: #008552;
   }
 
   .rot {
@@ -1072,8 +1097,14 @@ textarea:focus {
   }
 
   .see-modal:hover {
-    box-shadow: 5px 10px #36b37e;
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
     cursor: pointer;
+  }
+
+  .see-modal:active {
+    background-color: #008552;
   }
 
   .rot {
@@ -1441,8 +1472,14 @@ textarea:focus {
   }
 
   .see-modal:hover {
-    box-shadow: 5px 10px #36b37e;
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
     cursor: pointer;
+  }
+
+  .see-modal:active {
+    background-color: #008552;
   }
 
   .rot {
@@ -1821,8 +1858,14 @@ textarea:focus {
   }
 
   .see-modal:hover {
-    box-shadow: 5px 10px #36b37e;
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
     cursor: pointer;
+  }
+
+  .see-modal:active {
+    background-color: #008552;
   }
 
   .rot {
