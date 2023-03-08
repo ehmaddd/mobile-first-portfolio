@@ -121,11 +121,15 @@ VS Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributors <a name="contributors"></a>
 
-Contributions, issues, and feature requests are welcome!
+👤 Bright Eze
 
-Feel free to check the [Detailed Document](https://github.com/ehmaddd/mobile-first-portfolio/edit/main/README.md).
+- GitHub: [@githubhandle](https://github.com/brightbrain20)
+- Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
