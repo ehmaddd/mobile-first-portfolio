@@ -169,7 +169,7 @@
                     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
                 </div>
                 <div class="desktop-form">
-                    <form action="https://formspree.io/f/moqzdnpo" method="post">
+                    <form id="desktop-form">
                         <div id="full-name">
                             <label id="first-name-label" class="labels">First Name</label>
                             <input id="first" type="text" name="first-name" placeholder="First Name">
@@ -180,17 +180,19 @@
                         <input id="email" name="e-mail" type="email" placeholder="E mail address">
                         <label id="message-label" class="labels">Message</label>
                         <textarea id="message" name="message" class="form-td">Typing something</textarea>
-                        <button id="touch-btn" class="see-project-btn">Get in touch</button>
+                        <a id="touch-btn" class="desktop-form-btn">Get in touch</a>
                     </form>
+                    <small id="desktop-validation"></small>
                 </div>
                 <div>
-                    <form class="mobile-form" action="https://formspree.io/f/moqzdnpo" method="post">
+                    <form class="mobile-form" id="mobile-form">
                         <input type="text" name="full-name" maxlength="30" required 
                             placeholder="Full Name">
                         <input id="email" name="e-mail" required type="email" placeholder="Email address">
                         <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-                        <button class="message-submit-btn">Get in touch</button>
+                        <a id="mob-touch-btn" class="message-submit-btn">Get in touch</a>
                     </form>
+                    <small id="mobile-validation"></small>
                 </div>
             </div>
         </section>
