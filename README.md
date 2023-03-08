@@ -93,7 +93,10 @@ To run tests, run the following command:
 Open the code in Visual Studio Code and run the following commands :
 
 npx hint .
+
 npx stylelint "**/*.{css,scss}"
+
+npx eslint .
 
 ### Deployment
 
