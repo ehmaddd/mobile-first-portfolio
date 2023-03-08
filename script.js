@@ -108,26 +108,51 @@ window.addEventListener('click', (event) => {
 });
 
 // Accordion setting
-const acc = document.querySelector("#accordion");
-const panel = document.querySelector("#panel");
+const acc = document.querySelector('#accordion');
+const panel = document.querySelector('#panel');
 
-  acc.addEventListener("click", () => {
+acc.addEventListener('click', () => {
+  acc.classList.toggle('change');
 
-    acc.classList.toggle("change");
+  if (panel.style.display === 'block') {
+    panel.style.display = 'none';
+  } else {
+    panel.style.display = 'block';
+  }
+});
 
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-
-  //Hide panel when link clicked
+// Hide panel when link clicked
 const panelLinks = document.querySelectorAll('.drop-link');
 
-for(let i=0; i<panelLinks.length; i++){
-  panelLinks[i].addEventListener("click", () => {
+for (let i = 0; i < panelLinks.length; i += 1) {
+  panelLinks[i].addEventListener('click', () => {
     panel.style.display = 'none';
-    acc.classList.toggle("change");
+    acc.classList.toggle('change');
   });
 }
+
+// Performing desktop form validation
+const deskButton = document.querySelector('#touch-btn');
+deskButton.addEventListener('click', () => {
+  const em = document.querySelector('#desktop-form #email');
+  if (em.value === String(em.value).toLowerCase()) {
+    document.querySelector('#desktop-form').action = 'https://formspree.io/f/moqzdnpo';
+    document.querySelector('#desktop-form').method = 'post';
+    document.querySelector('#desktop-form').submit();
+  } else {
+    document.querySelector('#desktop-validation').innerHTML = "<span class='material-symbols-outlined'>cancel</span><h3>e-mail should be in lower case. Please try again after correction</h3>";
+  }
+});
+
+// Performing mobile form validation
+const mobileButton = document.querySelector('#mob-touch-btn');
+mobileButton.addEventListener('click', () => {
+  const em = document.querySelector('#mobile-form #email');
+  if (em.value === String(em.value).toLowerCase()) {
+    document.querySelector('#mobile-form').action = 'https://formspree.io/f/moqzdnpo';
+    document.querySelector('#mobile-form').method = 'post';
+    document.querySelector('#mobile-form').submit();
+  } else {
+    document.querySelector('#mobile-validation').innerHTML = "<span class='material-symbols-outlined'>cancel</span><h3>e-mail should be in lower case. Please try again after correction</h3>";
+  }
+});
