@@ -66,7 +66,6 @@ for (let a = 0; a < works.length; a += 1) {
     li.setAttribute('id', 'element4');
     worksUl[a].appendChild(li);
   }
-  // document.querySelectorAll('.work-sample a')[a].href = "project-"+parseInt(a+1);
 }
 
 // Populting Modal
