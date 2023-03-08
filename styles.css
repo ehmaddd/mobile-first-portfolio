@@ -532,6 +532,7 @@ textarea:focus {
     display: none;
     background-color: white;
     overflow: hidden;
+    height: 450px;
   }
 
   #panel a {

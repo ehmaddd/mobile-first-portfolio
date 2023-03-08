@@ -106,3 +106,28 @@ window.addEventListener('click', (event) => {
     modal.style.display = 'none';
   }
 });
+
+// Accordion setting
+const acc = document.querySelector("#accordion");
+const panel = document.querySelector("#panel");
+
+  acc.addEventListener("click", () => {
+
+    acc.classList.toggle("change");
+
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+
+  //Hide panel when link clicked
+const panelLinks = document.querySelectorAll('.drop-link');
+
+for(let i=0; i<panelLinks.length; i++){
+  panelLinks[i].addEventListener("click", () => {
+    panel.style.display = 'none';
+    acc.classList.toggle("change");
+  });
+}
