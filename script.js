@@ -122,7 +122,7 @@ acc.addEventListener('click', () => {
 });
 
 // Hide panel when link clicked
-const panelLinks = document.querySelectorAll('.drop-link');
+const panelLinks = document.querySelectorAll('#drop-link');
 
 for (let i = 0; i < panelLinks.length; i += 1) {
   panelLinks[i].addEventListener('click', () => {
