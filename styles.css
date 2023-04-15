@@ -1785,7 +1785,7 @@ textarea:focus {
   #myModal img {
     margin-top: 2%;
     width: 99%;
-    height: 616px;
+    height: 416px;
     border: 1px solid #dfe1e6;
     border-radius: 8px;
   }
@@ -1884,7 +1884,7 @@ textarea:focus {
     margin: auto;
     padding: 20px;
     width: 60%;
-    height: 1083px;
+    height: 850px;
     border: 1px solid #ebecf0;
     border-radius: 8px;
     overflow: auto;
